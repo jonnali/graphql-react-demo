@@ -84,11 +84,7 @@ module.exports = {
         new OptimizeCssAssetsWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: './src/views/index.html',
-            filename: 'index.html',
-            minify: {
-                collapseWhitespace: true,
-                removeComments: true
-            }
+            filename: 'index.html'
         })
     ],
     optimization:{
